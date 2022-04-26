@@ -11,14 +11,14 @@
 <body>
 	<div>
 		<h1>Send an Omikuji!</h1>
-		<form action="/formSubmit" method="post">
+		<form action="/formsubmit" method="post">
 			<div>
 				<label>Pick any number from 5 - 25</label>
-				<input type="number" name="number">
+				<input type="number" name="number" min="5" max="25">
 			</div>
 			<div>
 				<label>Enter the name of any city.</label>
-				<input type="text" name="person">
+				<input type="text" name="city">
 			</div>
 			<div>
 				<label>Enter the name of any real person</label>

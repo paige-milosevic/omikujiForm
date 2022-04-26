@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 
+
 @Controller
 
 public class HomeController {
@@ -31,7 +32,7 @@ public class HomeController {
 		return "omikuji.jsp";
 	}
 	
-	@PostMapping("/formSubmit")
+	@PostMapping("/formsubmit")
 	public String form(
 			@RequestParam("number") int number,
 			@RequestParam("city") String city,
