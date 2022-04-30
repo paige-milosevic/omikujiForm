@@ -43,6 +43,7 @@ public class HomeController {
 			HttpSession session
 			) {
 		
+		
 		String result = 
 		String.format("In %s years you will live in %s with %s as your roommate, %s. The next time you see a %s, you will have good luck. Also, %s.", number, city, person, prof, livingThing, nice);
 		session.setAttribute("result", result);
